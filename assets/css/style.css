@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    background-color: blue;
+}
+.form-length{
+    display: flex;
+    justify-content: center;
+    background-color: yellow;
+}
+.form-diameter{
+    display: flex;
+    justify-content: center;
+}
+.form-thickness{
+    display: flex;
+    justify-content: center;
+}
+.results {
+    display: flex;
+    justify-content: center;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}

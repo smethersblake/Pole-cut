@@ -9,6 +9,35 @@
         <h1>Valmot Pole Cut</h1>
     </header>
     <body>
+
+            <form class="form-length">
+                <!-- pole length input -->
+                <label for="lenght">Pole Length</label>
+                <input type="text" placeholder="Pole Length" name="lenght" id="length" class="pole-length">
+            </form>
+            <form class="form-diameter">
+                <!-- pole diameter input -->
+                <label for="diameter">Pole Diameter</label>
+                <input type="text" placeholder="Pole Diameter" name="diameter" id="diameter" class="pole=diameter">
+            </form>
+            <form class="form-thickness">
+                <!-- pole thickness input -->
+                <label for="thisness">Pole Thickness</label>
+                <input type="text" placeholder="Pole Thickness" name="thickness" id="thickness" class="pole-thickness">
+            </form>
+            <div class="results">
+                <h3>Cut pole down to:</h3>
+                <textarea
+                readonly
+                id="results"
+                placeholder="Pole Length"
+                aria-label="Pole Results"
+                ></textarea>
+            </div>
+            <div class="button">
+                <button id="submit" class="btn">Submit</button>
+            </div>
+        </div>
         <script>scr="./assets/js/script.js"</script>
     </body>
 </html>
